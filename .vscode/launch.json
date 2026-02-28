@@ -1,0 +1,85 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Master Node",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "program": "${workspaceFolder}/nodes/main.go",
+      "args": [
+        "master",
+        "--path=bin/config/game.json",
+        "--node=master"
+      ],
+      "cwd": "${workspaceFolder}",
+      "env": {},
+      "externalConsole": false,
+      "showLog": true
+    },
+    {
+      "name": "Center Node",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "program": "${workspaceFolder}/nodes/main.go",
+      "args": [
+        "center",
+        "--path=bin/config/game.json",
+        "--node=center"
+      ],
+      "cwd": "${workspaceFolder}",
+      "env": {},
+      "externalConsole": false,
+      "showLog": true
+    },
+    {
+      "name": "Gate Node",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "program": "${workspaceFolder}/nodes/main.go",
+      "args": [
+        "gate",
+        "--path=bin/config/game.json",
+        "--node=gate-1"
+      ],
+      "cwd": "${workspaceFolder}",
+      "env": {},
+      "externalConsole": false,
+      "showLog": true
+    },
+    {
+      "name": "Web Node",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "program": "${workspaceFolder}/nodes/main.go",
+      "args": [
+        "web",
+        "--path=bin/config/game.json",
+        "--node=web-1"
+      ],
+      "cwd": "${workspaceFolder}",
+      "env": {},
+      "externalConsole": false,
+      "showLog": true
+    },
+    {
+      "name": "Hall Node",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "program": "${workspaceFolder}/nodes/main.go",
+      "args": [
+        "hall",
+        "--path=bin/config/game.json",
+        "--node=hall-1"
+      ],
+      "cwd": "${workspaceFolder}",
+      "env": {},
+      "externalConsole": false,
+      "showLog": true
+    }
+  ]
+}
