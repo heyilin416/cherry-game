@@ -9,12 +9,11 @@
       "program": "${workspaceFolder}/nodes/main.go",
       "args": [
         "master",
-        "--path=bin/config/game.json",
+        "--path=config/game.json",
         "--node=master"
       ],
-      "cwd": "${workspaceFolder}",
+      "cwd": "${workspaceFolder}/bin",
       "env": {},
-      "externalConsole": false,
       "showLog": true
     },
     {
@@ -25,12 +24,11 @@
       "program": "${workspaceFolder}/nodes/main.go",
       "args": [
         "center",
-        "--path=bin/config/game.json",
+        "--path=config/game.json",
         "--node=center"
       ],
-      "cwd": "${workspaceFolder}",
+      "cwd": "${workspaceFolder}/bin",
       "env": {},
-      "externalConsole": false,
       "showLog": true
     },
     {
@@ -41,12 +39,11 @@
       "program": "${workspaceFolder}/nodes/main.go",
       "args": [
         "gate",
-        "--path=bin/config/game.json",
+        "--path=config/game.json",
         "--node=gate-1"
       ],
-      "cwd": "${workspaceFolder}",
+      "cwd": "${workspaceFolder}/bin",
       "env": {},
-      "externalConsole": false,
       "showLog": true
     },
     {
@@ -57,12 +54,11 @@
       "program": "${workspaceFolder}/nodes/main.go",
       "args": [
         "web",
-        "--path=bin/config/game.json",
+        "--path=config/game.json",
         "--node=web-1"
       ],
-      "cwd": "${workspaceFolder}",
+      "cwd": "${workspaceFolder}/bin",
       "env": {},
-      "externalConsole": false,
       "showLog": true
     },
     {
@@ -73,12 +69,11 @@
       "program": "${workspaceFolder}/nodes/main.go",
       "args": [
         "hall",
-        "--path=bin/config/game.json",
+        "--path=config/game.json",
         "--node=hall-1"
       ],
-      "cwd": "${workspaceFolder}",
+      "cwd": "${workspaceFolder}/bin",
       "env": {},
-      "externalConsole": false,
       "showLog": true
     }
   ]
